@@ -8,13 +8,20 @@
     </head>
     <div class="maindiv">
 
-        <div class="text_fields"></div>
-            <h1>Simple Interest Calculator</h1>
+        <h1>Simple Interest Calculator</h1>
 
-            Amount <input type="number" id="principal">  <br/><br/>
-            Interest Rate <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
+        <br/>
+        <div class="text_fields">
+
+            Amount
+            <input type="number" id="principal">  <br/><br/>
+
+            Interest Rate
+            <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
             <span id="rate_val"> 10.25%</span><br/><br/>
-            No. of Years <select id="years">
+
+            No. of Years
+            <select id="years">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -27,12 +34,22 @@
                 <option value="10">10</option>
             </select>
             <br/><br/>
+
+            <!-- Button for Computing Interest-->
             <button onclick="compute()">Compute Interest</button>
-            <span id="result">
+
+            <!-- Display the Result of the Computation Here-->
+            <span id="result"> 
 
             </span>
-        <br/>
+
         </div>
+        
+        <div class="copyright">
+            <br/>
+            &#169; Everyone Can Get Rich.
+        </div>
+
     </div>
 
     <footer>

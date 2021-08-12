@@ -1,6 +1,8 @@
+/* Body and Header*/
 body {background-color:black; font-family: arial; color: white;}
 h1{color:grey; font-family: verdana}
 
+/* Main box of the page */
 .maindiv {
     background-color: white;
     color: black;
@@ -8,5 +10,24 @@ h1{color:grey; font-family: verdana}
     padding: 20px;
     border-radius: 25px;
     margin: auto;
-    text-align: center;
+}
+
+/* Left-aligned Text Fields (Amount, Interest Rate, etc.) */
+.text_fields {
+    text-align: left;
+    padding-left: 83px;
+}
+
+/* Below are hard-coded offsets to center controls */
+
+#principal {
+    margin-left: 57px;
+}
+
+#rate {
+    margin-left: 22px;
+}
+
+#years {
+    margin-left: 27px;
 }

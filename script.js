@@ -17,7 +17,7 @@ function compute()
 
     document.getElementById("result").innerHTML = "\<br\>\<br\>" + 
         "If you deposit <mark>" + principal + "</mark>,\<br\>" + 
-        "at an interest rate of <mark>" + rate + "</mark>.\<br\>" + 
+        "at an interest rate of <mark>" + rate + "%</mark>.\<br\>" + 
         "You will receive an amount of <mark>" + interest + "</mark>,\<br\>" + 
         "in the year <mark>" + year + "</mark>\<br\>"
 
